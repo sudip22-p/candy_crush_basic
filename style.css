@@ -1,0 +1,27 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background:url("./assets/background.jpg") no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+    text-align: center;
+}
+div.candy-crush{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#candy-board{
+    background-color: lightblue;
+    border: 6px solid slategray;
+    border-radius: 12px;
+    height: 450px;
+    width: 450px;
+}
+#candy-board img{
+    width: 45px;
+    height: 45px;
+}

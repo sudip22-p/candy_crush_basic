@@ -33,3 +33,100 @@ h1{
     border-top-right-radius: 5px;
     margin-top: 5px;
 }
+@media (max-width:864px) {
+    body{
+        background:url("./assets/background.jpg") repeat center center fixed;
+        background-size:contain;
+    }
+    #candy-board{
+        height: 400px;
+        width: 400px;
+    }
+    #candy-board img{
+        width: 40px;
+        height: 40px;
+    }
+}
+@media (max-width:468px) {
+    #candy-board{
+        height: 400px;
+        width: 350px;
+    }
+    #candy-board img{
+        width: 35px;
+        height: 40px;
+    }
+}
+@media (max-width:392px) {
+    #candy-board{
+        height: 350px;
+        width: 300px;
+    }
+    #candy-board img{
+        width: 30px;
+        height: 35px;
+    }
+}
+@media (max-width:324px) {
+    #candy-board{
+        height: 300px;
+        width: 280px;
+    }
+    #candy-board img{
+        width: 28px;
+        height: 30px;
+    }
+}
+@media (max-width:294px) {
+    #candy-board{
+        height: 300px;
+        width: 250px;
+    }
+    #candy-board img{
+        width: 25px;
+        height: 30px;
+    }
+}
+@media (max-width:266px) {
+    #candy-board{
+        height: 300px;
+        width: 200px;
+    }
+    #candy-board img{
+        width: 20px;
+        height: 30px;
+    }
+}
+@media (max-width:220px) {
+    #candy-board{
+        height: 300px;
+        width: 180px;
+    }
+    #candy-board img{
+        width: 18px;
+        height: 30px;
+    }
+    h1{
+        font-size: 12px;
+    }
+}
+@media (max-width:195px) {
+    #candy-board{
+        height: 200px;
+        width: 150px;
+    }
+    #candy-board img{
+        width: 15px;
+        height: 20px;
+    }
+}
+@media (max-width:168px) {
+    #candy-board{
+        height: 150px;
+        width: 100px;
+    }
+    #candy-board img{
+        width: 10px;
+        height: 15px;
+    }
+}

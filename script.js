@@ -32,6 +32,12 @@ function startGame(){
             candyTile.addEventListener("drop",dropCandy);//drop=dragleave
             candyTile.addEventListener("dragend",shiftCandy);
 
+
+            //touch and dropping or shifting
+            candyTile.addEventListener("touchstart",clickCandy);
+            candyTile.addEventListener("touchmove",moveCandy);
+            candyTile.addEventListener("touchend",shiftCandy);
+
             document.getElementById("candy-board").append(candyTile);
             row.push(candyTile);
         }

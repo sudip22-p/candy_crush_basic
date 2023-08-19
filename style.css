@@ -17,11 +17,19 @@ div.candy-crush{
 #candy-board{
     background-color: lightblue;
     border: 6px solid slategray;
-    border-radius: 12px;
-    height: 450px;
-    width: 450px;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    height: 500px;
+    width: 500px;
 }
 #candy-board img{
-    width: 45px;
-    height: 45px;
+    width: 50px;
+    height: 50px;
+}
+h1{
+    background-color: slategray;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    margin-top: 5px;
 }
